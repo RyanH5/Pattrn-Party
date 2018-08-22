@@ -70,6 +70,7 @@ body {
 .selected {
   border: 1px solid #D1D2D3;
   border-bottom: 1px solid transparent;
+  border-radius: 3px;
 }
 
 .unselected {
@@ -91,4 +92,12 @@ img {
 
 .tab--content-container {
   padding: 15px;
+}
+
+.tab--title {
+  font-weight: 600;
+}
+
+.tab--paragraph {
+  margin-top: 15px;
 }
