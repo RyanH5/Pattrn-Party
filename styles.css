@@ -40,12 +40,15 @@ body {
 
 .main--accordian-title {
   display: inline-block;
+  font-size: 12px;
+  color: #666666;
 }
 
 .main--accordian-line {
   width: calc(92% - 100px);
   margin-left: 20px;
-  display: inline-block
+  display: inline-block;
+  vertical-align: sub;
 }
 
 .content--tabs {
