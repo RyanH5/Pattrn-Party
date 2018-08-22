@@ -62,7 +62,9 @@ body {
   border-radius: 2px;
   border-radius: 2px;
   padding: 10px;
-  width: calc(23.75% - 1px)
+  width: calc(23.75% - 1px);
+  text-align: center;
+  color: #666666;
 }
 
 .selected {
@@ -72,4 +74,21 @@ body {
 
 .unselected {
   background: #D1D2D3;
+}
+
+.image--content-container {
+  border-bottom: 1px solid #D1D2D3;
+  border-left: 1px solid #D1D2D3;
+  border-right: 1px solid #D1D2D3;
+  display: flex;
+  width: calc(94.8% - 40px);
+  padding: 20px;
+}
+
+img {
+  height: 240px;
+}
+
+.tab--content-container {
+  padding: 15px;
 }
