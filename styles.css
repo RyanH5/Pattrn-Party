@@ -68,6 +68,7 @@ body {
   width: calc(23.75% - 1px);
   text-align: center;
   color: #666666;
+  margin: 0px 1px;
 }
 
 .selected {
@@ -85,8 +86,9 @@ body {
   border-left: 1px solid #D1D2D3;
   border-right: 1px solid #D1D2D3;
   display: flex;
-  width: calc(94.8% - 40px);
+  width: calc(94.8% - 42px);
   padding: 20px;
+  margin: -1px 1px;
 }
 
 img {
@@ -103,4 +105,19 @@ img {
 
 .tab--paragraph {
   margin-top: 15px;
+}
+
+@media screen and (max-width: 810px) {
+  .image--content-container {
+    flex-direction: column;
+  }
+
+  .main--content-container {
+    padding: 100px;
+  }
+
+  .main-image {
+    width: 240px;
+    margin: auto;
+  }
 }
