@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <header class="header--bar">
@@ -23,7 +24,7 @@
       <li id="tab3" class="tab unselected"><span>Tab 3</span></li>
       <li id="tab4" class="tab unselected"><span>Tab 4</span></li>
     </ul>
-    <div class="image--content-container">
+    <div id="content1" class="image--content-container active">
       <img class="main-image" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1077960/3201/2552/m1/fpnw/wm0/flamingo_party_pattern_thumbnail-.jpg?1457730593&s=15bd5a844b076f1f2d8ef48e8d10ef4e" />
       <div class="tab--content-container">
         <h2 class="tab--title">
@@ -44,8 +45,128 @@
         </p>
       </div>
     </div>
+    <div id="content2" class="image--content-container inactive" >
+        <img class="main-image" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1077960/3201/2552/m1/fpnw/wm0/flamingo_party_pattern_thumbnail-.jpg?1457730593&s=15bd5a844b076f1f2d8ef48e8d10ef4e" />
+        <div class="tab--content-container">
+          <h2 class="tab--title">
+            Incarcerate dolor sit amet, consectetue
+          </h2>
+          <hr>
+          <p class="tab--paragraph">
+              France Ferdinand sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+              exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+              commodo consequat.
+          </p>
+          <p class="tab--paragraph">
+              Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+              molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+              vero eros et accumsan et iusto odio dignissim qui blandit.
+          </p>
+        </div>
+      </div>
+      <div id="content3" class="image--content-container inactive">
+          <img class="main-image" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1077960/3201/2552/m1/fpnw/wm0/flamingo_party_pattern_thumbnail-.jpg?1457730593&s=15bd5a844b076f1f2d8ef48e8d10ef4e" />
+          <div class="tab--content-container">
+            <h2 class="tab--title">
+              Quazzi moto sit amet, consectetue
+            </h2>
+            <hr>
+            <p class="tab--paragraph">
+                hats of cornfritters consectetuer adipiscing elit, sed diam
+                nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                commodo consequat.
+            </p>
+            <p class="tab--paragraph">
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                vero eros et accumsan et iusto odio dignissim qui blandit.
+            </p>
+          </div>
+        </div>
+        <div id="content4" class="image--content-container inactive">
+            <img class="main-image" src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1077960/3201/2552/m1/fpnw/wm0/flamingo_party_pattern_thumbnail-.jpg?1457730593&s=15bd5a844b076f1f2d8ef48e8d10ef4e" />
+            <div class="tab--content-container">
+              <h2 class="tab--title">
+                Shalamama dafds dfad
+              </h2>
+              <hr>
+              <p class="tab--paragraph">
+                  Yaba daba doo, consectetuer adipiscing elit, sed diam
+                  nonummy nibh euismod tincidunt ut laoreet dolore magna
+                  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                  exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                  commodo consequat.
+              </p>
+              <p class="tab--paragraph">
+                  Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                  molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                  vero eros et accumsan et iusto odio dignissim qui blandit.
+              </p>
+            </div>
+          </div>
   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <div class="mid-section">
+    <button class="view-code-btn">View Code</button>
+    <div class="flex-cards-header">
+      <span>FLEXIBLE CARDS</span>
+      <hr class="flexible-hr">
+    </div>
+  </div>
+  <section class="flex-cards">
+    <div class="outsider a">
+      <h2 class="flex-card-title">Lorem ipsum dolor sit</h2>
+      <div class="insider a1"></div>
+    </div>
+    <div class="outside b">
+      <h2 class="flex-card-title">Lorem ipsum</h2>
+      <div class="inside b"></div>
+    </div>
+    <div class="outside c">
+      <h2 class="flex-card-title">Lorem ipsum dolor sit</h2>
+      <div class="inside c"></div>
+    </div>
+    <div class="outside d">
+      <h2 class="flex-card-title">Lorem ipsum dolor sit </h2>
+      <div class="inside d"></div>
+    </div>
+    <div class="outside e">
+      <h2 class="flex-card-title">Lorem ipsum</h2>
+      <div class="inside e"></div>
+    </div>
+    <div class="outside f">
+      <h2 class="flex-card-title">Lorem ipsum</h2>
+      <div class="inside f"></div>
+    </div>
+    <div class="outsider g">
+      <h2 class="flex-card-title">Lorem ipsum dolor sit</h2>
+      <div class="insider g"></div>
+    </div>
+  </section>
+  <footer>
+    <button class="view-code-btn">View Code </button>
+    <div class="flex-cards-header">
+      <span>HEADER BAR</span>
+      <hr class="flexible-hr">
+    </div>
+    <nav>
+      <div class="nav-x"></div>
+      <ul>
+        <li>Navigation Link 1</li>
+        <li>Navigation Link 2</li>
+        <li>Navigation Link 3</li>
+      </ul>
+      <input 
+        type="text"
+        placeholder="Search"
+      />
+    </nav>
+    <button class="view-code-btn">View Code </button>
+
+  </footer>
   <script src="./index.js"></script>
 </body>
 </html>
